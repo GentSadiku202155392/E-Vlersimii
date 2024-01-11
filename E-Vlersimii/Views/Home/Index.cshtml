@@ -1,0 +1,32 @@
+﻿@{ ViewData["Title"] = "Home Page"; }
+
+<div class="text-center">
+    <h1 class="display-4">E-Vleresimi</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <div>
+        <h3> Log In </h3>
+
+        <div class="row">
+            <form method="post" action="/LoginHome/MesimdhenesiLogin">
+                <button type="submit" class="btn btn-primary">Mesimdhenesi</button>
+            </form>
+
+
+
+
+            <form method="post" action="/LoginHome/NxenesiLogin">
+                <button type="submit" class="btn btn-primary">Nxenesi</button>
+            </form>
+
+            <form method="post" action="/LoginHome/PrindiLogin">
+                <button type="submit" class="btn btn-primary">Prindi</button>
+            </form>
+
+
+
+
+
+        </div>
+    </div>
+</div>
